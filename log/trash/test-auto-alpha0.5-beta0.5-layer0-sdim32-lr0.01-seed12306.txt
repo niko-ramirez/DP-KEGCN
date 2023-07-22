@@ -1,0 +1,315 @@
+2023-04-09 23:40:05,903 Train len: 1344
+2023-04-09 23:40:05,904 Test len: 10756
+2023-04-09 23:40:05,904 Valid len: 1345
+2023-04-09 23:40:05,927 entity num: 14951
+2023-04-09 23:40:05,928 class num: 50
+2023-04-09 23:40:05,930 From .\train_class.py:125: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-04-09 23:40:05,936 From .\train_class.py:126: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2023-04-09 23:40:05,948 From C:\Users\nikor\conda_test\KE-GCN\models.py:164: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2023-04-09 23:40:05,953 From C:\Users\nikor\conda_test\KE-GCN\inits.py:34: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+2023-04-09 23:40:05,988 From C:\Users\nikor\conda_test\KE-GCN\inits.py:14: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+2023-04-09 23:40:06,005 From C:\Users\nikor\conda_test\KE-GCN\layers.py:112: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+2023-04-09 23:40:06,064 From C:\Users\nikor\Anaconda3\envs\dpsgd\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2023-04-09 23:40:06,208 From C:\Users\nikor\conda_test\KE-GCN\models.py:188: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2023-04-09 23:40:06,211 From C:\Users\nikor\conda_test\KE-GCN\models.py:188: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2023-04-09 23:40:06,222 From C:\Users\nikor\conda_test\KE-GCN\metrics.py:88: The name tf.losses.Reduction is deprecated. Please use tf.compat.v1.losses.Reduction instead.
+
+2023-04-09 23:40:06,982 From .\train_class.py:147: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2023-04-09 23:40:07,099 From .\train_class.py:148: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2023-04-09 23:40:08,960 Epoch: 1 train_loss= [19.538723  15.651767  66.547295  ... 11.724667   3.9078858  3.9130332]
+2023-04-09 23:40:09,649 Classification Precision 1: 43.527
+2023-04-09 23:40:09,649 Classification NDCG 1: 43.527
+2023-04-09 23:40:09,758 Classification Precision 3: 39.658
+2023-04-09 23:40:09,759 Classification NDCG 3: 42.408
+2023-04-09 23:40:09,867 Classification Precision 5: 33.958
+2023-04-09 23:40:09,867 Classification NDCG 5: 42.542
+2023-04-09 23:40:09,870 Train Accuracy: 33.960
+2023-04-09 23:40:09,976 Classification Precision 1: 38.885
+2023-04-09 23:40:09,976 Classification NDCG 1: 38.885
+2023-04-09 23:40:10,090 Classification Precision 3: 37.522
+2023-04-09 23:40:10,091 Classification NDCG 3: 39.459
+2023-04-09 23:40:10,195 Classification Precision 5: 31.777
+2023-04-09 23:40:10,195 Classification NDCG 5: 39.107
+2023-04-09 23:40:10,197 Valid Accuracy: 31.780
+2023-04-09 23:40:11,074 Classification Precision 1: 39.522
+2023-04-09 23:40:11,074 Classification NDCG 1: 39.522
+2023-04-09 23:40:11,920 Classification Precision 3: 37.895
+2023-04-09 23:40:11,920 Classification NDCG 3: 39.464
+2023-04-09 23:40:12,744 Classification Precision 5: 32.138
+2023-04-09 23:40:12,744 Classification NDCG 5: 39.040
+2023-04-09 23:40:12,747 Test Accuracy: 32.140
+2023-04-09 23:40:24,368 Epoch: 11 train_loss= [18.72552   15.218761  66.20294   ... 11.191851   3.3185465  3.8021665]
+2023-04-09 23:40:24,979 Classification Precision 1: 43.899
+2023-04-09 23:40:24,979 Classification NDCG 1: 43.899
+2023-04-09 23:40:25,089 Classification Precision 3: 39.707
+2023-04-09 23:40:25,089 Classification NDCG 3: 42.798
+2023-04-09 23:40:25,211 Classification Precision 5: 33.467
+2023-04-09 23:40:25,211 Classification NDCG 5: 42.073
+2023-04-09 23:40:25,213 Train Accuracy: 33.470
+2023-04-09 23:40:25,326 Classification Precision 1: 42.677
+2023-04-09 23:40:25,326 Classification NDCG 1: 42.677
+2023-04-09 23:40:25,431 Classification Precision 3: 39.108
+2023-04-09 23:40:25,432 Classification NDCG 3: 41.706
+2023-04-09 23:40:25,534 Classification Precision 5: 32.446
+2023-04-09 23:40:25,535 Classification NDCG 5: 40.500
+2023-04-09 23:40:25,539 Valid Accuracy: 32.450
+2023-04-09 23:40:26,360 Classification Precision 1: 44.022
+2023-04-09 23:40:26,360 Classification NDCG 1: 44.022
+2023-04-09 23:40:27,178 Classification Precision 3: 40.281
+2023-04-09 23:40:27,178 Classification NDCG 3: 42.529
+2023-04-09 23:40:28,064 Classification Precision 5: 33.074
+2023-04-09 23:40:28,065 Classification NDCG 5: 40.803
+2023-04-09 23:40:28,068 Test Accuracy: 33.070
+2023-04-09 23:40:39,422 Epoch: 21 train_loss= [18.68723   15.27826   66.55409   ... 11.224934   3.3126304  3.7942607]
+2023-04-09 23:40:40,054 Classification Precision 1: 37.798
+2023-04-09 23:40:40,054 Classification NDCG 1: 37.798
+2023-04-09 23:40:40,171 Classification Precision 3: 30.853
+2023-04-09 23:40:40,171 Classification NDCG 3: 34.614
+2023-04-09 23:40:40,311 Classification Precision 5: 26.875
+2023-04-09 23:40:40,312 Classification NDCG 5: 34.845
+2023-04-09 23:40:40,314 Train Accuracy: 26.870
+2023-04-09 23:40:40,415 Classification Precision 1: 38.810
+2023-04-09 23:40:40,415 Classification NDCG 1: 38.810
+2023-04-09 23:40:40,527 Classification Precision 3: 30.756
+2023-04-09 23:40:40,528 Classification NDCG 3: 34.251
+2023-04-09 23:40:40,631 Classification Precision 5: 27.019
+2023-04-09 23:40:40,632 Classification NDCG 5: 34.481
+2023-04-09 23:40:40,634 Valid Accuracy: 27.020
+2023-04-09 23:40:40,637 Test Accuracy: 33.070
+2023-04-09 23:40:51,909 Epoch: 31 train_loss= [18.66585   15.315889  66.87032   ... 11.228728   3.3838806  3.8106852]
+2023-04-09 23:40:52,485 Classification Precision 1: 33.705
+2023-04-09 23:40:52,486 Classification NDCG 1: 33.705
+2023-04-09 23:40:52,584 Classification Precision 3: 27.331
+2023-04-09 23:40:52,584 Classification NDCG 3: 29.381
+2023-04-09 23:40:52,689 Classification Precision 5: 21.562
+2023-04-09 23:40:52,689 Classification NDCG 5: 28.390
+2023-04-09 23:40:52,695 Train Accuracy: 21.560
+2023-04-09 23:40:52,800 Classification Precision 1: 34.796
+2023-04-09 23:40:52,801 Classification NDCG 1: 34.796
+2023-04-09 23:40:52,919 Classification Precision 3: 27.807
+2023-04-09 23:40:52,920 Classification NDCG 3: 29.571
+2023-04-09 23:40:53,034 Classification Precision 5: 22.171
+2023-04-09 23:40:53,035 Classification NDCG 5: 28.449
+2023-04-09 23:40:53,041 Valid Accuracy: 22.170
+2023-04-09 23:40:53,042 Test Accuracy: 33.070
+2023-04-09 23:41:04,146 Epoch: 41 train_loss= [18.669222  15.334257  67.030876  ... 11.23163    3.4468348  3.8200119]
+2023-04-09 23:41:04,738 Classification Precision 1: 21.726
+2023-04-09 23:41:04,738 Classification NDCG 1: 21.726
+2023-04-09 23:41:04,844 Classification Precision 3: 23.289
+2023-04-09 23:41:04,845 Classification NDCG 3: 24.074
+2023-04-09 23:41:04,967 Classification Precision 5: 18.289
+2023-04-09 23:41:04,967 Classification NDCG 5: 23.182
+2023-04-09 23:41:04,969 Train Accuracy: 18.290
+2023-04-09 23:41:05,084 Classification Precision 1: 22.082
+2023-04-09 23:41:05,085 Classification NDCG 1: 22.082
+2023-04-09 23:41:05,197 Classification Precision 3: 23.569
+2023-04-09 23:41:05,198 Classification NDCG 3: 24.080
+2023-04-09 23:41:05,310 Classification Precision 5: 19.271
+2023-04-09 23:41:05,311 Classification NDCG 5: 23.474
+2023-04-09 23:41:05,313 Valid Accuracy: 19.270
+2023-04-09 23:41:05,316 Test Accuracy: 33.070
+2023-04-09 23:41:16,418 Epoch: 51 train_loss= [18.690208  15.336965  67.03473   ... 11.245649   3.4891253  3.8279378]
+2023-04-09 23:41:17,017 Classification Precision 1: 21.503
+2023-04-09 23:41:17,018 Classification NDCG 1: 21.503
+2023-04-09 23:41:17,127 Classification Precision 3: 21.379
+2023-04-09 23:41:17,128 Classification NDCG 3: 22.292
+2023-04-09 23:41:17,234 Classification Precision 5: 18.229
+2023-04-09 23:41:17,235 Classification NDCG 5: 22.430
+2023-04-09 23:41:17,238 Train Accuracy: 18.230
+2023-04-09 23:41:17,341 Classification Precision 1: 22.007
+2023-04-09 23:41:17,342 Classification NDCG 1: 22.007
+2023-04-09 23:41:17,444 Classification Precision 3: 22.007
+2023-04-09 23:41:17,444 Classification NDCG 3: 22.659
+2023-04-09 23:41:17,547 Classification Precision 5: 19.048
+2023-04-09 23:41:17,548 Classification NDCG 5: 22.777
+2023-04-09 23:41:17,550 Valid Accuracy: 19.050
+2023-04-09 23:41:17,554 Test Accuracy: 33.070
+2023-04-09 23:41:28,788 Epoch: 61 train_loss= [18.712242  15.33361   67.01535   ... 11.261209   3.5274515  3.8348482]
+2023-04-09 23:41:29,408 Classification Precision 1: 21.057
+2023-04-09 23:41:29,409 Classification NDCG 1: 21.057
+2023-04-09 23:41:29,508 Classification Precision 3: 19.494
+2023-04-09 23:41:29,509 Classification NDCG 3: 20.729
+2023-04-09 23:41:29,612 Classification Precision 5: 18.170
+2023-04-09 23:41:29,613 Classification NDCG 5: 22.032
+2023-04-09 23:41:29,615 Train Accuracy: 18.170
+2023-04-09 23:41:29,730 Classification Precision 1: 21.784
+2023-04-09 23:41:29,731 Classification NDCG 1: 21.784
+2023-04-09 23:41:29,837 Classification Precision 3: 20.000
+2023-04-09 23:41:29,837 Classification NDCG 3: 21.126
+2023-04-09 23:41:29,940 Classification Precision 5: 18.900
+2023-04-09 23:41:29,941 Classification NDCG 5: 22.362
+2023-04-09 23:41:29,943 Valid Accuracy: 18.900
+2023-04-09 23:41:29,944 Test Accuracy: 33.070
+2023-04-09 23:41:41,148 Epoch: 71 train_loss= [18.73432   15.329895  66.99674   ... 11.275093   3.5555515  3.8361728]
+2023-04-09 23:41:41,738 Classification Precision 1: 20.759
+2023-04-09 23:41:41,739 Classification NDCG 1: 20.759
+2023-04-09 23:41:41,838 Classification Precision 3: 18.006
+2023-04-09 23:41:41,838 Classification NDCG 3: 19.479
+2023-04-09 23:41:41,941 Classification Precision 5: 18.006
+2023-04-09 23:41:41,942 Classification NDCG 5: 21.596
+2023-04-09 23:41:41,944 Train Accuracy: 18.010
+2023-04-09 23:41:42,044 Classification Precision 1: 21.487
+2023-04-09 23:41:42,044 Classification NDCG 1: 21.487
+2023-04-09 23:41:42,150 Classification Precision 3: 19.281
+2023-04-09 23:41:42,150 Classification NDCG 3: 20.502
+2023-04-09 23:41:42,253 Classification Precision 5: 18.766
+2023-04-09 23:41:42,254 Classification NDCG 5: 22.121
+2023-04-09 23:41:42,259 Valid Accuracy: 18.770
+2023-04-09 23:41:42,260 Test Accuracy: 33.070
+2023-04-09 23:41:53,255 Epoch: 81 train_loss= [18.752907  15.329454  66.98475   ... 11.286179   3.6091907  3.8404012]
+2023-04-09 23:41:53,849 Classification Precision 1: 20.759
+2023-04-09 23:41:53,849 Classification NDCG 1: 20.759
+2023-04-09 23:41:53,951 Classification Precision 3: 16.716
+2023-04-09 23:41:53,951 Classification NDCG 3: 18.105
+2023-04-09 23:41:54,055 Classification Precision 5: 17.693
+2023-04-09 23:41:54,055 Classification NDCG 5: 20.892
+2023-04-09 23:41:54,057 Train Accuracy: 17.690
+2023-04-09 23:41:54,160 Classification Precision 1: 21.561
+2023-04-09 23:41:54,161 Classification NDCG 1: 21.561
+2023-04-09 23:41:54,259 Classification Precision 3: 18.340
+2023-04-09 23:41:54,260 Classification NDCG 3: 19.340
+2023-04-09 23:41:54,364 Classification Precision 5: 18.572
+2023-04-09 23:41:54,365 Classification NDCG 5: 21.656
+2023-04-09 23:41:54,371 Valid Accuracy: 18.570
+2023-04-09 23:41:54,372 Test Accuracy: 33.070
+2023-04-09 23:42:05,423 Epoch: 91 train_loss= [18.77037   15.331715  66.98905   ... 11.295387   3.722039   3.8411686]
+2023-04-09 23:42:06,024 Classification Precision 1: 21.057
+2023-04-09 23:42:06,025 Classification NDCG 1: 21.057
+2023-04-09 23:42:06,136 Classification Precision 3: 16.369
+2023-04-09 23:42:06,136 Classification NDCG 3: 17.842
+2023-04-09 23:42:06,245 Classification Precision 5: 17.321
+2023-04-09 23:42:06,246 Classification NDCG 5: 20.163
+2023-04-09 23:42:06,248 Train Accuracy: 17.320
+2023-04-09 23:42:06,352 Classification Precision 1: 21.636
+2023-04-09 23:42:06,353 Classification NDCG 1: 21.636
+2023-04-09 23:42:06,466 Classification Precision 3: 17.943
+2023-04-09 23:42:06,467 Classification NDCG 3: 19.015
+2023-04-09 23:42:06,586 Classification Precision 5: 18.097
+2023-04-09 23:42:06,586 Classification NDCG 5: 20.834
+2023-04-09 23:42:06,589 Valid Accuracy: 18.100
+2023-04-09 23:42:06,591 Test Accuracy: 33.070
+2023-04-09 23:42:17,681 Epoch: 101 train_loss= [18.786991  15.337766  67.01296   ... 11.303765   3.8865767  3.8431587]
+2023-04-09 23:42:18,237 Classification Precision 1: 20.982
+2023-04-09 23:42:18,237 Classification NDCG 1: 20.982
+2023-04-09 23:42:18,338 Classification Precision 3: 16.443
+2023-04-09 23:42:18,338 Classification NDCG 3: 17.899
+2023-04-09 23:42:18,444 Classification Precision 5: 17.768
+2023-04-09 23:42:18,445 Classification NDCG 5: 20.560
+2023-04-09 23:42:18,447 Train Accuracy: 17.770
+2023-04-09 23:42:18,574 Classification Precision 1: 21.487
+2023-04-09 23:42:18,575 Classification NDCG 1: 21.487
+2023-04-09 23:42:18,709 Classification Precision 3: 17.918
+2023-04-09 23:42:18,710 Classification NDCG 3: 18.944
+2023-04-09 23:42:18,811 Classification Precision 5: 18.260
+2023-04-09 23:42:18,812 Classification NDCG 5: 21.065
+2023-04-09 23:42:18,815 Valid Accuracy: 18.260
+2023-04-09 23:42:18,818 Test Accuracy: 33.070
+2023-04-09 23:42:29,794 Epoch: 111 train_loss= [18.805237  15.348936  67.059235  ... 11.311756   4.085183   3.8456395]
+2023-04-09 23:42:30,361 Classification Precision 1: 21.280
+2023-04-09 23:42:30,361 Classification NDCG 1: 21.280
+2023-04-09 23:42:30,467 Classification Precision 3: 12.996
+2023-04-09 23:42:30,467 Classification NDCG 3: 15.470
+2023-04-09 23:42:30,577 Classification Precision 5: 12.902
+2023-04-09 23:42:30,577 Classification NDCG 5: 16.435
+2023-04-09 23:42:30,581 Train Accuracy: 12.900
+2023-04-09 23:42:30,695 Classification Precision 1: 21.784
+2023-04-09 23:42:30,696 Classification NDCG 1: 21.784
+2023-04-09 23:42:30,829 Classification Precision 3: 13.730
+2023-04-09 23:42:30,829 Classification NDCG 3: 15.939
+2023-04-09 23:42:30,943 Classification Precision 5: 13.903
+2023-04-09 23:42:30,944 Classification NDCG 5: 17.188
+2023-04-09 23:42:30,945 Valid Accuracy: 13.900
+2023-04-09 23:42:30,945 Test Accuracy: 33.070
+2023-04-09 23:42:42,183 Epoch: 121 train_loss= [18.826548  15.364607  67.12915   ... 11.320819   4.1867704  3.8491225]
+2023-04-09 23:42:42,758 Classification Precision 1: 22.173
+2023-04-09 23:42:42,759 Classification NDCG 1: 22.173
+2023-04-09 23:42:42,870 Classification Precision 3: 12.996
+2023-04-09 23:42:42,871 Classification NDCG 3: 14.973
+2023-04-09 23:42:42,980 Classification Precision 5: 13.065
+2023-04-09 23:42:42,980 Classification NDCG 5: 16.224
+2023-04-09 23:42:42,981 Train Accuracy: 13.070
+2023-04-09 23:42:43,082 Classification Precision 1: 22.677
+2023-04-09 23:42:43,083 Classification NDCG 1: 22.677
+2023-04-09 23:42:43,185 Classification Precision 3: 13.656
+2023-04-09 23:42:43,186 Classification NDCG 3: 15.229
+2023-04-09 23:42:43,305 Classification Precision 5: 14.007
+2023-04-09 23:42:43,305 Classification NDCG 5: 16.746
+2023-04-09 23:42:43,307 Valid Accuracy: 14.010
+2023-04-09 23:42:43,307 Test Accuracy: 33.070
+2023-04-09 23:42:54,351 Epoch: 131 train_loss= [18.849174  15.384869  67.21425   ... 11.329741   4.230919   3.8525589]
+2023-04-09 23:42:54,919 Classification Precision 1: 9.152
+2023-04-09 23:42:54,919 Classification NDCG 1: 9.152
+2023-04-09 23:42:55,025 Classification Precision 3: 12.946
+2023-04-09 23:42:55,026 Classification NDCG 3: 12.614
+2023-04-09 23:42:55,158 Classification Precision 5: 13.378
+2023-04-09 23:42:55,159 Classification NDCG 5: 14.878
+2023-04-09 23:42:55,160 Train Accuracy: 13.380
+2023-04-09 23:42:55,273 Classification Precision 1: 7.955
+2023-04-09 23:42:55,274 Classification NDCG 1: 7.955
+2023-04-09 23:42:55,377 Classification Precision 3: 13.631
+2023-04-09 23:42:55,378 Classification NDCG 3: 12.650
+2023-04-09 23:42:55,481 Classification Precision 5: 14.126
+2023-04-09 23:42:55,482 Classification NDCG 5: 14.995
+2023-04-09 23:42:55,483 Valid Accuracy: 14.130
+2023-04-09 23:42:55,483 Test Accuracy: 33.070
+2023-04-09 23:43:06,534 Epoch: 141 train_loss= [18.871414  15.40673   67.30587   ... 11.338848   4.2240763  3.8568997]
+2023-04-09 23:43:07,129 Classification Precision 1: 9.003
+2023-04-09 23:43:07,129 Classification NDCG 1: 9.003
+2023-04-09 23:43:07,233 Classification Precision 3: 12.946
+2023-04-09 23:43:07,234 Classification NDCG 3: 12.559
+2023-04-09 23:43:07,334 Classification Precision 5: 14.301
+2023-04-09 23:43:07,334 Classification NDCG 5: 15.610
+2023-04-09 23:43:07,336 Train Accuracy: 14.300
+2023-04-09 23:43:07,434 Classification Precision 1: 7.881
+2023-04-09 23:43:07,435 Classification NDCG 1: 7.881
+2023-04-09 23:43:07,535 Classification Precision 3: 13.631
+2023-04-09 23:43:07,536 Classification NDCG 3: 12.638
+2023-04-09 23:43:07,636 Classification Precision 5: 15.063
+2023-04-09 23:43:07,637 Classification NDCG 5: 15.878
+2023-04-09 23:43:07,638 Valid Accuracy: 15.060
+2023-04-09 23:43:07,639 Test Accuracy: 33.070
+2023-04-09 23:43:18,725 Epoch: 151 train_loss= [18.892147  15.428168  67.39537   ... 11.346704   4.1862364  3.8600533]
+2023-04-09 23:43:19,325 Classification Precision 1: 9.003
+2023-04-09 23:43:19,326 Classification NDCG 1: 9.003
+2023-04-09 23:43:19,424 Classification Precision 3: 12.946
+2023-04-09 23:43:19,425 Classification NDCG 3: 12.559
+2023-04-09 23:43:19,525 Classification Precision 5: 14.881
+2023-04-09 23:43:19,526 Classification NDCG 5: 16.101
+2023-04-09 23:43:19,527 Train Accuracy: 14.880
+2023-04-09 23:43:19,624 Classification Precision 1: 7.881
+2023-04-09 23:43:19,625 Classification NDCG 1: 7.881
+2023-04-09 23:43:19,723 Classification Precision 3: 13.631
+2023-04-09 23:43:19,723 Classification NDCG 3: 12.638
+2023-04-09 23:43:19,826 Classification Precision 5: 15.390
+2023-04-09 23:43:19,827 Classification NDCG 5: 16.225
+2023-04-09 23:43:19,828 Valid Accuracy: 15.390
+2023-04-09 23:43:19,828 Test Accuracy: 33.070
+2023-04-09 23:43:31,546 Epoch: 161 train_loss= [18.909082  15.447359  67.47672   ... 11.352482   4.134179   3.8632295]
+2023-04-09 23:43:32,289 Classification Precision 1: 8.780
+2023-04-09 23:43:32,289 Classification NDCG 1: 8.780
+2023-04-09 23:43:32,416 Classification Precision 3: 12.946
+2023-04-09 23:43:32,416 Classification NDCG 3: 12.467
+2023-04-09 23:43:32,523 Classification Precision 5: 15.149
+2023-04-09 23:43:32,524 Classification NDCG 5: 16.257
+2023-04-09 23:43:32,525 Train Accuracy: 15.150
+2023-04-09 23:43:32,641 Classification Precision 1: 7.881
+2023-04-09 23:43:32,641 Classification NDCG 1: 7.881
+2023-04-09 23:43:32,748 Classification Precision 3: 13.631
+2023-04-09 23:43:32,748 Classification NDCG 3: 12.638
+2023-04-09 23:43:32,856 Classification Precision 5: 15.673
+2023-04-09 23:43:32,857 Classification NDCG 5: 16.523
+2023-04-09 23:43:32,858 Valid Accuracy: 15.670
+2023-04-09 23:43:32,858 Test Accuracy: 33.070
+2023-04-09 23:43:45,223 Epoch: 171 train_loss= [18.922274  15.464971  67.5468    ... 11.355967   4.077179   3.8648028]

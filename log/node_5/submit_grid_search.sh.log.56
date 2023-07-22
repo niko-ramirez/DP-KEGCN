@@ -1,0 +1,717 @@
+56
+60
+Experiment dir : ./log/trash
+train 1344, valid 1345, test 10756
+04/11 11:18:57 AM From train_class_grid.py:111: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+04/11 11:18:57 AM From train_class_grid.py:112: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+####### Model: AutoRGCN_Align #########
+04/11 11:18:57 AM From /home/gridsan/nramirez/projects/KE-GCN/models.py:165: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+04/11 11:18:57 AM From /home/gridsan/nramirez/projects/KE-GCN/inits.py:34: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+04/11 11:18:57 AM From /home/gridsan/nramirez/projects/KE-GCN/inits.py:14: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+04/11 11:18:57 AM From /home/gridsan/nramirez/projects/KE-GCN/layers.py:112: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+04/11 11:18:57 AM From /home/gridsan/nramirez/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+04/11 11:18:58 AM From /home/gridsan/nramirez/projects/KE-GCN/models.py:189: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+04/11 11:18:58 AM From /home/gridsan/nramirez/projects/KE-GCN/models.py:189: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+04/11 11:18:59 AM From train_class_grid.py:136: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+04/11 11:19:00 AM From train_class_grid.py:137: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+04/11 11:19:06 AM Classification Precision 1: 53.274
+04/11 11:19:06 AM Classification NDCG 1: 53.274
+04/11 11:19:06 AM Classification Precision 3: 34.474
+04/11 11:19:06 AM Classification NDCG 3: 40.412
+04/11 11:19:06 AM Classification Precision 5: 29.137
+04/11 11:19:06 AM Classification NDCG 5: 38.078
+04/11 11:19:06 AM Classification Precision 1: 54.721
+04/11 11:19:06 AM Classification NDCG 1: 54.721
+04/11 11:19:06 AM Classification Precision 3: 35.589
+04/11 11:19:06 AM Classification NDCG 3: 41.339
+04/11 11:19:06 AM Classification Precision 5: 29.978
+04/11 11:19:06 AM Classification NDCG 5: 38.989
+04/11 11:19:07 AM Classification Precision 1: 53.579
+04/11 11:19:07 AM Classification NDCG 1: 53.579
+04/11 11:19:07 AM Classification Precision 3: 35.403
+04/11 11:19:07 AM Classification NDCG 3: 40.583
+04/11 11:19:07 AM Classification Precision 5: 30.229
+04/11 11:19:07 AM Classification NDCG 5: 38.285
+04/11 11:19:31 AM Classification Precision 1: 56.176
+04/11 11:19:31 AM Classification NDCG 1: 56.176
+04/11 11:19:31 AM Classification Precision 3: 44.767
+04/11 11:19:31 AM Classification NDCG 3: 48.080
+04/11 11:19:31 AM Classification Precision 5: 39.524
+04/11 11:19:31 AM Classification NDCG 5: 45.220
+04/11 11:19:31 AM Classification Precision 1: 55.539
+04/11 11:19:31 AM Classification NDCG 1: 55.539
+04/11 11:19:31 AM Classification Precision 3: 43.693
+04/11 11:19:31 AM Classification NDCG 3: 47.052
+04/11 11:19:31 AM Classification Precision 5: 38.989
+04/11 11:19:31 AM Classification NDCG 5: 44.219
+04/11 11:19:31 AM Classification Precision 1: 56.378
+04/11 11:19:31 AM Classification NDCG 1: 56.378
+04/11 11:19:32 AM Classification Precision 3: 43.972
+04/11 11:19:32 AM Classification NDCG 3: 47.461
+04/11 11:19:32 AM Classification Precision 5: 38.695
+04/11 11:19:32 AM Classification NDCG 5: 44.262
+04/11 11:19:53 AM Classification Precision 1: 57.292
+04/11 11:19:53 AM Classification NDCG 1: 57.292
+04/11 11:19:53 AM Classification Precision 3: 49.752
+04/11 11:19:53 AM Classification NDCG 3: 52.027
+04/11 11:19:53 AM Classification Precision 5: 43.021
+04/11 11:19:53 AM Classification NDCG 5: 48.940
+04/11 11:19:53 AM Classification Precision 1: 56.506
+04/11 11:19:53 AM Classification NDCG 1: 56.506
+04/11 11:19:53 AM Classification Precision 3: 49.393
+04/11 11:19:53 AM Classification NDCG 3: 51.395
+04/11 11:19:53 AM Classification Precision 5: 42.186
+04/11 11:19:53 AM Classification NDCG 5: 47.598
+04/11 11:19:54 AM Classification Precision 1: 57.252
+04/11 11:19:54 AM Classification NDCG 1: 57.252
+04/11 11:19:54 AM Classification Precision 3: 49.718
+04/11 11:19:54 AM Classification NDCG 3: 51.992
+04/11 11:19:55 AM Classification Precision 5: 42.672
+04/11 11:19:55 AM Classification NDCG 5: 48.387
+04/11 11:20:16 AM Classification Precision 1: 81.920
+04/11 11:20:16 AM Classification NDCG 1: 81.920
+04/11 11:20:16 AM Classification Precision 3: 72.272
+04/11 11:20:16 AM Classification NDCG 3: 77.228
+04/11 11:20:16 AM Classification Precision 5: 64.420
+04/11 11:20:16 AM Classification NDCG 5: 77.137
+04/11 11:20:16 AM Classification Precision 1: 78.662
+04/11 11:20:16 AM Classification NDCG 1: 78.662
+04/11 11:20:16 AM Classification Precision 3: 71.797
+04/11 11:20:16 AM Classification NDCG 3: 75.767
+04/11 11:20:17 AM Classification Precision 5: 64.074
+04/11 11:20:17 AM Classification NDCG 5: 75.407
+04/11 11:20:17 AM Classification Precision 1: 80.327
+04/11 11:20:17 AM Classification NDCG 1: 80.327
+04/11 11:20:18 AM Classification Precision 3: 72.006
+04/11 11:20:18 AM Classification NDCG 3: 76.195
+04/11 11:20:18 AM Classification Precision 5: 64.840
+04/11 11:20:18 AM Classification NDCG 5: 76.299
+04/11 11:20:41 AM Classification Precision 1: 90.551
+04/11 11:20:41 AM Classification NDCG 1: 90.551
+04/11 11:20:41 AM Classification Precision 3: 80.432
+04/11 11:20:41 AM Classification NDCG 3: 86.659
+04/11 11:20:41 AM Classification Precision 5: 66.935
+04/11 11:20:41 AM Classification NDCG 5: 83.788
+04/11 11:20:41 AM Classification Precision 1: 86.171
+04/11 11:20:41 AM Classification NDCG 1: 86.171
+04/11 11:20:41 AM Classification Precision 3: 78.910
+04/11 11:20:41 AM Classification NDCG 3: 84.461
+04/11 11:20:41 AM Classification Precision 5: 66.602
+04/11 11:20:41 AM Classification NDCG 5: 82.046
+04/11 11:20:41 AM Classification Precision 1: 88.955
+04/11 11:20:41 AM Classification NDCG 1: 88.955
+04/11 11:20:42 AM Classification Precision 3: 80.569
+04/11 11:20:42 AM Classification NDCG 3: 86.152
+04/11 11:20:42 AM Classification Precision 5: 67.575
+04/11 11:20:42 AM Classification NDCG 5: 83.320
+04/11 11:21:02 AM Classification Precision 1: 91.443
+04/11 11:21:02 AM Classification NDCG 1: 91.443
+04/11 11:21:02 AM Classification Precision 3: 82.738
+04/11 11:21:02 AM Classification NDCG 3: 89.187
+04/11 11:21:02 AM Classification Precision 5: 69.315
+04/11 11:21:02 AM Classification NDCG 5: 86.825
+04/11 11:21:02 AM Classification Precision 1: 87.361
+04/11 11:21:02 AM Classification NDCG 1: 87.361
+04/11 11:21:02 AM Classification Precision 3: 80.892
+04/11 11:21:02 AM Classification NDCG 3: 86.852
+04/11 11:21:02 AM Classification Precision 5: 68.535
+04/11 11:21:02 AM Classification NDCG 5: 84.644
+04/11 11:21:03 AM Classification Precision 1: 90.573
+04/11 11:21:03 AM Classification NDCG 1: 90.573
+04/11 11:21:03 AM Classification Precision 3: 82.490
+04/11 11:21:03 AM Classification NDCG 3: 88.429
+04/11 11:21:03 AM Classification Precision 5: 69.245
+04/11 11:21:03 AM Classification NDCG 5: 85.711
+04/11 11:21:23 AM Classification Precision 1: 93.527
+04/11 11:21:23 AM Classification NDCG 1: 93.527
+04/11 11:21:23 AM Classification Precision 3: 84.747
+04/11 11:21:23 AM Classification NDCG 3: 91.392
+04/11 11:21:23 AM Classification Precision 5: 71.429
+04/11 11:21:23 AM Classification NDCG 5: 89.216
+04/11 11:21:24 AM Classification Precision 1: 90.112
+04/11 11:21:24 AM Classification NDCG 1: 90.112
+04/11 11:21:24 AM Classification Precision 3: 82.949
+04/11 11:21:24 AM Classification NDCG 3: 89.143
+04/11 11:21:24 AM Classification Precision 5: 70.245
+04/11 11:21:24 AM Classification NDCG 5: 86.874
+04/11 11:21:24 AM Classification Precision 1: 92.125
+04/11 11:21:24 AM Classification NDCG 1: 92.125
+04/11 11:21:24 AM Classification Precision 3: 84.573
+04/11 11:21:24 AM Classification NDCG 3: 90.483
+04/11 11:21:25 AM Classification Precision 5: 71.145
+04/11 11:21:25 AM Classification NDCG 5: 87.804
+04/11 11:21:47 AM Classification Precision 1: 94.196
+04/11 11:21:47 AM Classification NDCG 1: 94.196
+04/11 11:21:47 AM Classification Precision 3: 86.334
+04/11 11:21:47 AM Classification NDCG 3: 93.065
+04/11 11:21:47 AM Classification Precision 5: 73.185
+04/11 11:21:47 AM Classification NDCG 5: 91.261
+04/11 11:21:47 AM Classification Precision 1: 90.037
+04/11 11:21:47 AM Classification NDCG 1: 90.037
+04/11 11:21:47 AM Classification Precision 3: 83.668
+04/11 11:21:47 AM Classification NDCG 3: 89.927
+04/11 11:21:48 AM Classification Precision 5: 71.673
+04/11 11:21:48 AM Classification NDCG 5: 88.223
+04/11 11:21:48 AM Classification Precision 1: 92.851
+04/11 11:21:48 AM Classification NDCG 1: 92.851
+04/11 11:21:48 AM Classification Precision 3: 85.589
+04/11 11:21:48 AM Classification NDCG 3: 91.627
+04/11 11:21:49 AM Classification Precision 5: 72.698
+04/11 11:21:49 AM Classification NDCG 5: 89.449
+04/11 11:22:10 AM Classification Precision 1: 95.685
+04/11 11:22:10 AM Classification NDCG 1: 95.685
+04/11 11:22:10 AM Classification Precision 3: 87.401
+04/11 11:22:10 AM Classification NDCG 3: 94.555
+04/11 11:22:10 AM Classification Precision 5: 74.643
+04/11 11:22:10 AM Classification NDCG 5: 93.278
+04/11 11:22:10 AM Classification Precision 1: 91.078
+04/11 11:22:10 AM Classification NDCG 1: 91.078
+04/11 11:22:10 AM Classification Precision 3: 84.535
+04/11 11:22:10 AM Classification NDCG 3: 91.058
+04/11 11:22:10 AM Classification Precision 5: 72.520
+04/11 11:22:10 AM Classification NDCG 5: 89.528
+04/11 11:22:11 AM Classification Precision 1: 93.297
+04/11 11:22:11 AM Classification NDCG 1: 93.297
+04/11 11:22:11 AM Classification Precision 3: 86.169
+04/11 11:22:11 AM Classification NDCG 3: 92.329
+04/11 11:22:12 AM Classification Precision 5: 73.459
+04/11 11:22:12 AM Classification NDCG 5: 90.420
+04/11 11:22:32 AM Classification Precision 1: 97.991
+04/11 11:22:32 AM Classification NDCG 1: 97.991
+04/11 11:22:32 AM Classification Precision 3: 88.864
+04/11 11:22:32 AM Classification NDCG 3: 96.765
+04/11 11:22:32 AM Classification Precision 5: 75.536
+04/11 11:22:32 AM Classification NDCG 5: 95.038
+04/11 11:22:32 AM Classification Precision 1: 93.234
+04/11 11:22:32 AM Classification NDCG 1: 93.234
+04/11 11:22:32 AM Classification Precision 3: 85.428
+04/11 11:22:32 AM Classification NDCG 3: 92.466
+04/11 11:22:32 AM Classification Precision 5: 73.041
+04/11 11:22:32 AM Classification NDCG 5: 90.581
+04/11 11:22:32 AM Classification Precision 1: 94.533
+04/11 11:22:32 AM Classification NDCG 1: 94.533
+04/11 11:22:33 AM Classification Precision 3: 87.096
+04/11 11:22:33 AM Classification NDCG 3: 93.559
+04/11 11:22:33 AM Classification Precision 5: 74.074
+04/11 11:22:33 AM Classification NDCG 5: 91.398
+04/11 11:23:01 AM Classification Precision 1: 99.107
+04/11 11:23:01 AM Classification NDCG 1: 99.107
+04/11 11:23:01 AM Classification Precision 3: 89.211
+04/11 11:23:01 AM Classification NDCG 3: 97.431
+04/11 11:23:01 AM Classification Precision 5: 76.295
+04/11 11:23:01 AM Classification NDCG 5: 96.066
+04/11 11:23:01 AM Classification Precision 1: 93.755
+04/11 11:23:01 AM Classification NDCG 1: 93.755
+04/11 11:23:01 AM Classification Precision 3: 85.626
+04/11 11:23:01 AM Classification NDCG 3: 92.842
+04/11 11:23:01 AM Classification Precision 5: 73.442
+04/11 11:23:01 AM Classification NDCG 5: 91.096
+04/11 11:23:01 AM Classification Precision 1: 95.007
+04/11 11:23:01 AM Classification NDCG 1: 95.007
+04/11 11:23:02 AM Classification Precision 3: 87.297
+04/11 11:23:02 AM Classification NDCG 3: 93.871
+04/11 11:23:02 AM Classification Precision 5: 74.593
+04/11 11:23:02 AM Classification NDCG 5: 91.936
+04/11 11:23:28 AM Classification Precision 1: 99.330
+04/11 11:23:28 AM Classification NDCG 1: 99.330
+04/11 11:23:29 AM Classification Precision 3: 89.559
+04/11 11:23:29 AM Classification NDCG 3: 97.833
+04/11 11:23:29 AM Classification Precision 5: 76.786
+04/11 11:23:29 AM Classification NDCG 5: 96.603
+04/11 11:23:29 AM Classification Precision 1: 93.829
+04/11 11:23:29 AM Classification NDCG 1: 93.829
+04/11 11:23:29 AM Classification Precision 3: 85.973
+04/11 11:23:29 AM Classification NDCG 3: 93.132
+04/11 11:23:29 AM Classification Precision 5: 73.814
+04/11 11:23:29 AM Classification NDCG 5: 91.419
+04/11 11:23:29 AM Classification Precision 1: 94.989
+04/11 11:23:29 AM Classification NDCG 1: 94.989
+04/11 11:23:30 AM Classification Precision 3: 87.480
+04/11 11:23:30 AM Classification NDCG 3: 94.064
+04/11 11:23:30 AM Classification Precision 5: 74.948
+04/11 11:23:30 AM Classification NDCG 5: 92.247
+04/11 11:23:50 AM Classification Precision 1: 99.554
+04/11 11:23:50 AM Classification NDCG 1: 99.554
+04/11 11:23:50 AM Classification Precision 3: 89.931
+04/11 11:23:50 AM Classification NDCG 3: 98.254
+04/11 11:23:50 AM Classification Precision 5: 77.247
+04/11 11:23:50 AM Classification NDCG 5: 97.137
+04/11 11:23:50 AM Classification Precision 1: 93.680
+04/11 11:23:50 AM Classification NDCG 1: 93.680
+04/11 11:23:50 AM Classification Precision 3: 86.022
+04/11 11:23:50 AM Classification NDCG 3: 93.126
+04/11 11:23:51 AM Classification Precision 5: 74.245
+04/11 11:23:51 AM Classification NDCG 5: 91.671
+04/11 11:23:51 AM Classification Precision 1: 94.775
+04/11 11:23:51 AM Classification NDCG 1: 94.775
+04/11 11:23:51 AM Classification Precision 3: 87.585
+04/11 11:23:51 AM Classification NDCG 3: 94.034
+04/11 11:23:52 AM Classification Precision 5: 75.158
+04/11 11:23:52 AM Classification NDCG 5: 92.315
+04/11 11:24:12 AM Classification Precision 1: 99.777
+04/11 11:24:12 AM Classification NDCG 1: 99.777
+04/11 11:24:13 AM Classification Precision 3: 90.129
+04/11 11:24:13 AM Classification NDCG 3: 98.503
+04/11 11:24:13 AM Classification Precision 5: 77.604
+04/11 11:24:13 AM Classification NDCG 5: 97.515
+04/11 11:24:13 AM Classification Precision 1: 94.052
+04/11 11:24:13 AM Classification NDCG 1: 94.052
+04/11 11:24:13 AM Classification Precision 3: 86.121
+04/11 11:24:13 AM Classification NDCG 3: 93.378
+04/11 11:24:13 AM Classification Precision 5: 74.171
+04/11 11:24:13 AM Classification NDCG 5: 91.755
+04/11 11:24:41 AM Classification Precision 1: 99.851
+04/11 11:24:41 AM Classification NDCG 1: 99.851
+04/11 11:24:41 AM Classification Precision 3: 90.303
+04/11 11:24:41 AM Classification NDCG 3: 98.668
+04/11 11:24:41 AM Classification Precision 5: 77.872
+04/11 11:24:41 AM Classification NDCG 5: 97.769
+04/11 11:24:41 AM Classification Precision 1: 93.829
+04/11 11:24:41 AM Classification NDCG 1: 93.829
+04/11 11:24:41 AM Classification Precision 3: 86.072
+04/11 11:24:41 AM Classification NDCG 3: 93.301
+04/11 11:24:41 AM Classification Precision 5: 74.230
+04/11 11:24:41 AM Classification NDCG 5: 91.770
+04/11 11:25:10 AM Classification Precision 1: 99.851
+04/11 11:25:10 AM Classification NDCG 1: 99.851
+04/11 11:25:10 AM Classification Precision 3: 90.427
+04/11 11:25:10 AM Classification NDCG 3: 98.762
+04/11 11:25:10 AM Classification Precision 5: 78.125
+04/11 11:25:10 AM Classification NDCG 5: 97.980
+04/11 11:25:10 AM Classification Precision 1: 93.755
+04/11 11:25:10 AM Classification NDCG 1: 93.755
+04/11 11:25:10 AM Classification Precision 3: 86.146
+04/11 11:25:10 AM Classification NDCG 3: 93.335
+04/11 11:25:10 AM Classification Precision 5: 74.112
+04/11 11:25:10 AM Classification NDCG 5: 91.643
+04/11 11:25:37 AM Classification Precision 1: 99.851
+04/11 11:25:37 AM Classification NDCG 1: 99.851
+04/11 11:25:37 AM Classification Precision 3: 90.625
+04/11 11:25:37 AM Classification NDCG 3: 98.933
+04/11 11:25:37 AM Classification Precision 5: 78.259
+04/11 11:25:37 AM Classification NDCG 5: 98.114
+04/11 11:25:38 AM Classification Precision 1: 93.755
+04/11 11:25:38 AM Classification NDCG 1: 93.755
+04/11 11:25:38 AM Classification Precision 3: 85.998
+04/11 11:25:38 AM Classification NDCG 3: 93.174
+04/11 11:25:38 AM Classification Precision 5: 74.067
+04/11 11:25:38 AM Classification NDCG 5: 91.555
+04/11 11:26:06 AM Classification Precision 1: 99.851
+04/11 11:26:06 AM Classification NDCG 1: 99.851
+04/11 11:26:06 AM Classification Precision 3: 90.699
+04/11 11:26:06 AM Classification NDCG 3: 99.007
+04/11 11:26:06 AM Classification Precision 5: 78.437
+04/11 11:26:06 AM Classification NDCG 5: 98.267
+04/11 11:26:06 AM Classification Precision 1: 93.606
+04/11 11:26:06 AM Classification NDCG 1: 93.606
+04/11 11:26:06 AM Classification Precision 3: 86.047
+04/11 11:26:06 AM Classification NDCG 3: 93.190
+04/11 11:26:06 AM Classification Precision 5: 74.067
+04/11 11:26:06 AM Classification NDCG 5: 91.488
+04/11 11:26:31 AM Classification Precision 1: 99.926
+04/11 11:26:31 AM Classification NDCG 1: 99.926
+04/11 11:26:31 AM Classification Precision 3: 90.749
+04/11 11:26:31 AM Classification NDCG 3: 99.070
+04/11 11:26:32 AM Classification Precision 5: 78.557
+04/11 11:26:32 AM Classification NDCG 5: 98.388
+04/11 11:26:32 AM Classification Precision 1: 93.755
+04/11 11:26:32 AM Classification NDCG 1: 93.755
+04/11 11:26:32 AM Classification Precision 3: 86.072
+04/11 11:26:32 AM Classification NDCG 3: 93.197
+04/11 11:26:32 AM Classification Precision 5: 74.126
+04/11 11:26:32 AM Classification NDCG 5: 91.529
+04/11 11:26:59 AM Classification Precision 1: 99.926
+04/11 11:26:59 AM Classification NDCG 1: 99.926
+04/11 11:26:59 AM Classification Precision 3: 90.774
+04/11 11:26:59 AM Classification NDCG 3: 99.092
+04/11 11:26:59 AM Classification Precision 5: 78.750
+04/11 11:26:59 AM Classification NDCG 5: 98.537
+04/11 11:26:59 AM Classification Precision 1: 93.755
+04/11 11:26:59 AM Classification NDCG 1: 93.755
+04/11 11:26:59 AM Classification Precision 3: 86.047
+04/11 11:26:59 AM Classification NDCG 3: 93.172
+04/11 11:26:59 AM Classification Precision 5: 74.171
+04/11 11:26:59 AM Classification NDCG 5: 91.566
+DP-SGD with sampling rate = 100% and noise_multiplier = 0.001 iterated over 200 steps satisfies differential privacy with eps = 1.25e+08 and delta = 1e-05.
+The optimal RDP order is 1.25.
+The privacy estimate is likely to be improved by expanding the set of orders.
+04/11 11:27:21 AM NORM: 1e-05, NOISE= 0.001, LEARNING_RATE: 0.05, EPS: 125000046.05170186
+04/11 11:27:21 AM Optimization Finished! Best Valid Acc: 74.17 Test: 94.78 94.78 87.59 94.03 75.16 92.31
+Experiment dir : ./log/trash
+train 1344, valid 1345, test 10756
+####### Model: AutoRGCN_Align #########
+04/11 11:27:30 AM Classification Precision 1: 25.223
+04/11 11:27:30 AM Classification NDCG 1: 25.223
+04/11 11:27:30 AM Classification Precision 3: 18.229
+04/11 11:27:30 AM Classification NDCG 3: 21.113
+04/11 11:27:30 AM Classification Precision 5: 15.312
+04/11 11:27:30 AM Classification NDCG 5: 20.455
+04/11 11:27:30 AM Classification Precision 1: 28.550
+04/11 11:27:30 AM Classification NDCG 1: 28.550
+04/11 11:27:30 AM Classification Precision 3: 18.910
+04/11 11:27:30 AM Classification NDCG 3: 22.161
+04/11 11:27:30 AM Classification Precision 5: 15.881
+04/11 11:27:30 AM Classification NDCG 5: 21.351
+04/11 11:27:31 AM Classification Precision 1: 27.389
+04/11 11:27:31 AM Classification NDCG 1: 27.389
+04/11 11:27:31 AM Classification Precision 3: 18.898
+04/11 11:27:31 AM Classification NDCG 3: 21.566
+04/11 11:27:31 AM Classification Precision 5: 15.872
+04/11 11:27:31 AM Classification NDCG 5: 20.611
+04/11 11:27:59 AM Classification Precision 1: 28.423
+04/11 11:27:59 AM Classification NDCG 1: 28.423
+04/11 11:27:59 AM Classification Precision 3: 25.769
+04/11 11:27:59 AM Classification NDCG 3: 26.903
+04/11 11:27:59 AM Classification Precision 5: 24.792
+04/11 11:27:59 AM Classification NDCG 5: 27.512
+04/11 11:27:59 AM Classification Precision 1: 32.491
+04/11 11:27:59 AM Classification NDCG 1: 32.491
+04/11 11:27:59 AM Classification Precision 3: 27.212
+04/11 11:27:59 AM Classification NDCG 3: 29.016
+04/11 11:27:59 AM Classification Precision 5: 25.502
+04/11 11:27:59 AM Classification NDCG 5: 29.156
+04/11 11:28:00 AM Classification Precision 1: 30.932
+04/11 11:28:00 AM Classification NDCG 1: 30.932
+04/11 11:28:00 AM Classification Precision 3: 26.968
+04/11 11:28:00 AM Classification NDCG 3: 28.319
+04/11 11:28:01 AM Classification Precision 5: 25.699
+04/11 11:28:01 AM Classification NDCG 5: 28.612
+04/11 11:28:29 AM Classification Precision 1: 58.333
+04/11 11:28:29 AM Classification NDCG 1: 58.333
+04/11 11:28:29 AM Classification Precision 3: 36.384
+04/11 11:28:29 AM Classification NDCG 3: 41.149
+04/11 11:28:29 AM Classification Precision 5: 31.295
+04/11 11:28:29 AM Classification NDCG 5: 38.404
+04/11 11:28:29 AM Classification Precision 1: 58.587
+04/11 11:28:29 AM Classification NDCG 1: 58.587
+04/11 11:28:29 AM Classification Precision 3: 37.695
+04/11 11:28:29 AM Classification NDCG 3: 42.303
+04/11 11:28:29 AM Classification Precision 5: 31.703
+04/11 11:28:29 AM Classification NDCG 5: 38.991
+04/11 11:28:29 AM Classification Precision 1: 58.767
+04/11 11:28:29 AM Classification NDCG 1: 58.767
+04/11 11:28:30 AM Classification Precision 3: 37.300
+04/11 11:28:30 AM Classification NDCG 3: 41.950
+04/11 11:28:30 AM Classification Precision 5: 32.012
+04/11 11:28:30 AM Classification NDCG 5: 38.901
+04/11 11:28:59 AM Classification Precision 1: 54.092
+04/11 11:28:59 AM Classification NDCG 1: 54.092
+04/11 11:28:59 AM Classification Precision 3: 44.147
+04/11 11:28:59 AM Classification NDCG 3: 46.954
+04/11 11:28:59 AM Classification Precision 5: 37.530
+04/11 11:28:59 AM Classification NDCG 5: 43.829
+04/11 11:28:59 AM Classification Precision 1: 54.721
+04/11 11:28:59 AM Classification NDCG 1: 54.721
+04/11 11:28:59 AM Classification Precision 3: 45.056
+04/11 11:28:59 AM Classification NDCG 3: 47.861
+04/11 11:28:59 AM Classification Precision 5: 38.097
+04/11 11:28:59 AM Classification NDCG 5: 44.684
+04/11 11:28:59 AM Classification Precision 1: 53.524
+04/11 11:28:59 AM Classification NDCG 1: 53.524
+04/11 11:29:00 AM Classification Precision 3: 44.601
+04/11 11:29:00 AM Classification NDCG 3: 47.256
+04/11 11:29:00 AM Classification Precision 5: 37.873
+04/11 11:29:00 AM Classification NDCG 5: 43.960
+04/11 11:29:25 AM Classification Precision 1: 56.250
+04/11 11:29:25 AM Classification NDCG 1: 56.250
+04/11 11:29:25 AM Classification Precision 3: 47.222
+04/11 11:29:25 AM Classification NDCG 3: 49.507
+04/11 11:29:25 AM Classification Precision 5: 40.789
+04/11 11:29:25 AM Classification NDCG 5: 46.524
+04/11 11:29:25 AM Classification Precision 1: 56.134
+04/11 11:29:25 AM Classification NDCG 1: 56.134
+04/11 11:29:25 AM Classification Precision 3: 48.600
+04/11 11:29:25 AM Classification NDCG 3: 50.579
+04/11 11:29:25 AM Classification Precision 5: 41.517
+04/11 11:29:25 AM Classification NDCG 5: 47.265
+04/11 11:29:26 AM Classification Precision 1: 56.285
+04/11 11:29:26 AM Classification NDCG 1: 56.285
+04/11 11:29:26 AM Classification Precision 3: 47.896
+04/11 11:29:26 AM Classification NDCG 3: 50.232
+04/11 11:29:27 AM Classification Precision 5: 41.248
+04/11 11:29:27 AM Classification NDCG 5: 47.029
+04/11 11:29:54 AM Classification Precision 1: 57.292
+04/11 11:29:54 AM Classification NDCG 1: 57.292
+04/11 11:29:54 AM Classification Precision 3: 44.792
+04/11 11:29:54 AM Classification NDCG 3: 47.794
+04/11 11:29:54 AM Classification Precision 5: 40.134
+04/11 11:29:54 AM Classification NDCG 5: 45.486
+04/11 11:29:54 AM Classification Precision 1: 56.729
+04/11 11:29:54 AM Classification NDCG 1: 56.729
+04/11 11:29:54 AM Classification Precision 3: 45.378
+04/11 11:29:54 AM Classification NDCG 3: 48.040
+04/11 11:29:54 AM Classification Precision 5: 40.848
+04/11 11:29:54 AM Classification NDCG 5: 45.871
+04/11 11:30:16 AM Classification Precision 1: 56.399
+04/11 11:30:16 AM Classification NDCG 1: 56.399
+04/11 11:30:16 AM Classification Precision 3: 41.939
+04/11 11:30:16 AM Classification NDCG 3: 45.334
+04/11 11:30:16 AM Classification Precision 5: 39.286
+04/11 11:30:16 AM Classification NDCG 5: 44.167
+04/11 11:30:16 AM Classification Precision 1: 56.506
+04/11 11:30:16 AM Classification NDCG 1: 56.506
+04/11 11:30:16 AM Classification Precision 3: 43.172
+04/11 11:30:16 AM Classification NDCG 3: 46.260
+04/11 11:30:16 AM Classification Precision 5: 40.045
+04/11 11:30:16 AM Classification NDCG 5: 44.751
+04/11 11:30:43 AM Classification Precision 1: 56.324
+04/11 11:30:43 AM Classification NDCG 1: 56.324
+04/11 11:30:43 AM Classification Precision 3: 41.741
+04/11 11:30:43 AM Classification NDCG 3: 45.124
+04/11 11:30:43 AM Classification Precision 5: 39.926
+04/11 11:30:43 AM Classification NDCG 5: 44.708
+04/11 11:30:43 AM Classification Precision 1: 56.803
+04/11 11:30:43 AM Classification NDCG 1: 56.803
+04/11 11:30:44 AM Classification Precision 3: 41.809
+04/11 11:30:44 AM Classification NDCG 3: 45.286
+04/11 11:30:44 AM Classification Precision 5: 40.030
+04/11 11:30:44 AM Classification NDCG 5: 44.687
+04/11 11:31:12 AM Classification Precision 1: 56.771
+04/11 11:31:12 AM Classification NDCG 1: 56.771
+04/11 11:31:12 AM Classification Precision 3: 44.221
+04/11 11:31:12 AM Classification NDCG 3: 47.325
+04/11 11:31:12 AM Classification Precision 5: 41.786
+04/11 11:31:12 AM Classification NDCG 5: 46.581
+04/11 11:31:12 AM Classification Precision 1: 57.249
+04/11 11:31:12 AM Classification NDCG 1: 57.249
+04/11 11:31:12 AM Classification Precision 3: 44.089
+04/11 11:31:12 AM Classification NDCG 3: 47.126
+04/11 11:31:12 AM Classification Precision 5: 42.156
+04/11 11:31:12 AM Classification NDCG 5: 46.728
+04/11 11:31:12 AM Classification Precision 1: 57.196
+04/11 11:31:12 AM Classification NDCG 1: 57.196
+04/11 11:31:13 AM Classification Precision 3: 43.991
+04/11 11:31:13 AM Classification NDCG 3: 47.166
+04/11 11:31:13 AM Classification Precision 5: 41.659
+04/11 11:31:13 AM Classification NDCG 5: 46.435
+04/11 11:31:40 AM Classification Precision 1: 56.548
+04/11 11:31:40 AM Classification NDCG 1: 56.548
+04/11 11:31:40 AM Classification Precision 3: 45.585
+04/11 11:31:40 AM Classification NDCG 3: 48.460
+04/11 11:31:40 AM Classification Precision 5: 41.920
+04/11 11:31:40 AM Classification NDCG 5: 46.873
+04/11 11:31:40 AM Classification Precision 1: 56.283
+04/11 11:31:40 AM Classification NDCG 1: 56.283
+04/11 11:31:40 AM Classification Precision 3: 46.121
+04/11 11:31:40 AM Classification NDCG 3: 48.729
+04/11 11:31:40 AM Classification Precision 5: 42.097
+04/11 11:31:40 AM Classification NDCG 5: 46.780
+04/11 11:32:09 AM Classification Precision 1: 56.250
+04/11 11:32:09 AM Classification NDCG 1: 56.250
+04/11 11:32:09 AM Classification Precision 3: 48.661
+04/11 11:32:09 AM Classification NDCG 3: 50.882
+04/11 11:32:09 AM Classification Precision 5: 41.548
+04/11 11:32:09 AM Classification NDCG 5: 46.934
+04/11 11:32:09 AM Classification Precision 1: 55.985
+04/11 11:32:09 AM Classification NDCG 1: 55.985
+04/11 11:32:09 AM Classification Precision 3: 49.021
+04/11 11:32:09 AM Classification NDCG 3: 51.082
+04/11 11:32:09 AM Classification Precision 5: 41.546
+04/11 11:32:09 AM Classification NDCG 5: 46.825
+04/11 11:32:38 AM Classification Precision 1: 56.250
+04/11 11:32:38 AM Classification NDCG 1: 56.250
+04/11 11:32:38 AM Classification Precision 3: 49.529
+04/11 11:32:38 AM Classification NDCG 3: 51.506
+04/11 11:32:38 AM Classification Precision 5: 41.667
+04/11 11:32:38 AM Classification NDCG 5: 47.211
+04/11 11:32:38 AM Classification Precision 1: 55.985
+04/11 11:32:38 AM Classification NDCG 1: 55.985
+04/11 11:32:38 AM Classification Precision 3: 49.715
+04/11 11:32:38 AM Classification NDCG 3: 51.635
+04/11 11:32:38 AM Classification Precision 5: 41.651
+04/11 11:32:38 AM Classification NDCG 5: 47.055
+04/11 11:33:06 AM Classification Precision 1: 56.101
+04/11 11:33:06 AM Classification NDCG 1: 56.101
+04/11 11:33:06 AM Classification Precision 3: 50.422
+04/11 11:33:06 AM Classification NDCG 3: 52.219
+04/11 11:33:06 AM Classification Precision 5: 42.574
+04/11 11:33:06 AM Classification NDCG 5: 48.106
+04/11 11:33:06 AM Classification Precision 1: 55.762
+04/11 11:33:06 AM Classification NDCG 1: 55.762
+04/11 11:33:07 AM Classification Precision 3: 50.087
+04/11 11:33:07 AM Classification NDCG 3: 51.886
+04/11 11:33:07 AM Classification Precision 5: 43.138
+04/11 11:33:07 AM Classification NDCG 5: 48.308
+04/11 11:33:07 AM Classification Precision 1: 56.675
+04/11 11:33:07 AM Classification NDCG 1: 56.675
+04/11 11:33:07 AM Classification Precision 3: 50.046
+04/11 11:33:07 AM Classification NDCG 3: 52.130
+04/11 11:33:08 AM Classification Precision 5: 42.337
+04/11 11:33:08 AM Classification NDCG 5: 47.915
+04/11 11:33:34 AM Classification Precision 1: 56.027
+04/11 11:33:34 AM Classification NDCG 1: 56.027
+04/11 11:33:34 AM Classification Precision 3: 50.298
+04/11 11:33:34 AM Classification NDCG 3: 52.065
+04/11 11:33:35 AM Classification Precision 5: 44.167
+04/11 11:33:35 AM Classification NDCG 5: 49.285
+04/11 11:33:35 AM Classification Precision 1: 55.688
+04/11 11:33:35 AM Classification NDCG 1: 55.688
+04/11 11:33:35 AM Classification Precision 3: 50.458
+04/11 11:33:35 AM Classification NDCG 3: 52.169
+04/11 11:33:35 AM Classification Precision 5: 44.639
+04/11 11:33:35 AM Classification NDCG 5: 49.465
+04/11 11:33:35 AM Classification Precision 1: 56.508
+04/11 11:33:35 AM Classification NDCG 1: 56.508
+04/11 11:33:36 AM Classification Precision 3: 50.239
+04/11 11:33:36 AM Classification NDCG 3: 52.270
+04/11 11:33:36 AM Classification Precision 5: 44.055
+04/11 11:33:36 AM Classification NDCG 5: 49.232
+04/11 11:34:05 AM Classification Precision 1: 56.027
+04/11 11:34:05 AM Classification NDCG 1: 56.027
+04/11 11:34:05 AM Classification Precision 3: 50.422
+04/11 11:34:05 AM Classification NDCG 3: 52.099
+04/11 11:34:05 AM Classification Precision 5: 46.726
+04/11 11:34:05 AM Classification NDCG 5: 51.203
+04/11 11:34:05 AM Classification Precision 1: 55.688
+04/11 11:34:05 AM Classification NDCG 1: 55.688
+04/11 11:34:05 AM Classification Precision 3: 50.335
+04/11 11:34:05 AM Classification NDCG 3: 51.982
+04/11 11:34:05 AM Classification Precision 5: 47.182
+04/11 11:34:05 AM Classification NDCG 5: 51.345
+04/11 11:34:05 AM Classification Precision 1: 56.387
+04/11 11:34:05 AM Classification NDCG 1: 56.387
+04/11 11:34:06 AM Classification Precision 3: 50.421
+04/11 11:34:06 AM Classification NDCG 3: 52.264
+04/11 11:34:06 AM Classification Precision 5: 46.774
+04/11 11:34:06 AM Classification NDCG 5: 51.244
+04/11 11:34:26 AM Classification Precision 1: 56.324
+04/11 11:34:26 AM Classification NDCG 1: 56.324
+04/11 11:34:26 AM Classification Precision 3: 52.852
+04/11 11:34:26 AM Classification NDCG 3: 54.034
+04/11 11:34:26 AM Classification Precision 5: 51.845
+04/11 11:34:26 AM Classification NDCG 5: 55.738
+04/11 11:34:26 AM Classification Precision 1: 56.431
+04/11 11:34:26 AM Classification NDCG 1: 56.431
+04/11 11:34:26 AM Classification Precision 3: 52.763
+04/11 11:34:26 AM Classification NDCG 3: 54.006
+04/11 11:34:26 AM Classification Precision 5: 52.416
+04/11 11:34:26 AM Classification NDCG 5: 56.040
+04/11 11:34:26 AM Classification Precision 1: 56.908
+04/11 11:34:26 AM Classification NDCG 1: 56.908
+04/11 11:34:27 AM Classification Precision 3: 52.876
+04/11 11:34:27 AM Classification NDCG 3: 54.252
+04/11 11:34:27 AM Classification Precision 5: 52.064
+04/11 11:34:27 AM Classification NDCG 5: 55.874
+04/11 11:34:50 AM Classification Precision 1: 60.938
+04/11 11:34:50 AM Classification NDCG 1: 60.938
+04/11 11:34:50 AM Classification Precision 3: 56.250
+04/11 11:34:50 AM Classification NDCG 3: 58.052
+04/11 11:34:50 AM Classification Precision 5: 54.420
+04/11 11:34:50 AM Classification NDCG 5: 59.511
+04/11 11:34:50 AM Classification Precision 1: 60.074
+04/11 11:34:50 AM Classification NDCG 1: 60.074
+04/11 11:34:50 AM Classification Precision 3: 56.481
+04/11 11:34:50 AM Classification NDCG 3: 58.235
+04/11 11:34:50 AM Classification Precision 5: 54.751
+04/11 11:34:50 AM Classification NDCG 5: 59.708
+04/11 11:34:51 AM Classification Precision 1: 61.454
+04/11 11:34:51 AM Classification NDCG 1: 61.454
+04/11 11:34:51 AM Classification Precision 3: 56.403
+04/11 11:34:51 AM Classification NDCG 3: 58.376
+04/11 11:34:51 AM Classification Precision 5: 54.479
+04/11 11:34:51 AM Classification NDCG 5: 59.503
+04/11 11:35:08 AM Classification Precision 1: 69.048
+04/11 11:35:08 AM Classification NDCG 1: 69.048
+04/11 11:35:08 AM Classification Precision 3: 62.649
+04/11 11:35:08 AM Classification NDCG 3: 65.288
+04/11 11:35:08 AM Classification Precision 5: 56.012
+04/11 11:35:08 AM Classification NDCG 5: 63.707
+04/11 11:35:08 AM Classification Precision 1: 69.071
+04/11 11:35:08 AM Classification NDCG 1: 69.071
+04/11 11:35:09 AM Classification Precision 3: 62.726
+04/11 11:35:09 AM Classification NDCG 3: 65.376
+04/11 11:35:09 AM Classification Precision 5: 56.297
+04/11 11:35:09 AM Classification NDCG 5: 63.927
+04/11 11:35:09 AM Classification Precision 1: 69.589
+04/11 11:35:09 AM Classification NDCG 1: 69.589
+04/11 11:35:09 AM Classification Precision 3: 62.260
+04/11 11:35:09 AM Classification NDCG 3: 65.003
+04/11 11:35:10 AM Classification Precision 5: 56.186
+04/11 11:35:10 AM Classification NDCG 5: 63.555
+04/11 11:35:25 AM Classification Precision 1: 72.470
+04/11 11:35:25 AM Classification NDCG 1: 72.470
+04/11 11:35:25 AM Classification Precision 3: 64.658
+04/11 11:35:25 AM Classification NDCG 3: 67.911
+04/11 11:35:25 AM Classification Precision 5: 57.307
+04/11 11:35:25 AM Classification NDCG 5: 66.115
+04/11 11:35:25 AM Classification Precision 1: 72.045
+04/11 11:35:25 AM Classification NDCG 1: 72.045
+04/11 11:35:25 AM Classification Precision 3: 64.758
+04/11 11:35:25 AM Classification NDCG 3: 67.905
+04/11 11:35:25 AM Classification Precision 5: 57.874
+04/11 11:35:25 AM Classification NDCG 5: 66.343
+04/11 11:35:25 AM Classification Precision 1: 72.006
+04/11 11:35:25 AM Classification NDCG 1: 72.006
+04/11 11:35:26 AM Classification Precision 3: 64.497
+04/11 11:35:26 AM Classification NDCG 3: 67.513
+04/11 11:35:26 AM Classification Precision 5: 57.778
+04/11 11:35:26 AM Classification NDCG 5: 65.897
+04/11 11:35:41 AM Classification Precision 1: 74.405
+04/11 11:35:41 AM Classification NDCG 1: 74.405
+04/11 11:35:41 AM Classification Precision 3: 65.873
+04/11 11:35:41 AM Classification NDCG 3: 69.408
+04/11 11:35:41 AM Classification Precision 5: 58.185
+04/11 11:35:41 AM Classification NDCG 5: 67.710
+04/11 11:35:41 AM Classification Precision 1: 73.755
+04/11 11:35:41 AM Classification NDCG 1: 73.755
+04/11 11:35:41 AM Classification Precision 3: 66.394
+04/11 11:35:41 AM Classification NDCG 3: 69.933
+04/11 11:35:41 AM Classification Precision 5: 58.944
+04/11 11:35:41 AM Classification NDCG 5: 68.269
+04/11 11:35:41 AM Classification Precision 1: 73.829
+04/11 11:35:41 AM Classification NDCG 1: 73.829
+04/11 11:35:42 AM Classification Precision 3: 65.979
+04/11 11:35:42 AM Classification NDCG 3: 69.252
+04/11 11:35:42 AM Classification Precision 5: 58.730
+04/11 11:35:42 AM Classification NDCG 5: 67.625
+DP-SGD with sampling rate = 100% and noise_multiplier = 0.1 iterated over 200 steps satisfies differential privacy with eps = 1.25e+04 and delta = 1e-05.
+The optimal RDP order is 1.25.
+The privacy estimate is likely to be improved by expanding the set of orders.
+04/11 11:35:54 AM NORM: 1e-06, NOISE= 0.1, LEARNING_RATE: 0.05, EPS: 12546.051701859877
+04/11 11:35:54 AM Optimization Finished! Best Valid Acc: 58.94 Test: 73.83 73.83 65.98 69.25 58.73 67.63
+LLSUB_RANK=56: WARNING:tensorflow:From train_class_grid.py:59: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From train_class_grid.py:62: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From train_class_grid.py:111: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From train_class_grid.py:112: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From /home/gridsan/nramirez/projects/KE-GCN/models.py:165: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From /home/gridsan/nramirez/projects/KE-GCN/inits.py:34: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From /home/gridsan/nramirez/projects/KE-GCN/inits.py:14: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From /home/gridsan/nramirez/projects/KE-GCN/layers.py:112: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From /home/gridsan/nramirez/.local/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+LLSUB_RANK=56: Instructions for updating:
+LLSUB_RANK=56: Use tf.where in 2.0, which has the same broadcast rule as np.where
+LLSUB_RANK=56: WARNING:tensorflow:From /home/gridsan/nramirez/projects/KE-GCN/models.py:189: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From /home/gridsan/nramirez/projects/KE-GCN/models.py:189: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: WARNING:tensorflow:From train_class_grid.py:136: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+LLSUB_RANK=56: 
+LLSUB_RANK=56: 2023-04-11 11:18:59.632004: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+LLSUB_RANK=56: 2023-04-11 11:18:59.644582: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+LLSUB_RANK=56: 2023-04-11 11:18:59.645396: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (d-17-9-4): /proc/driver/nvidia/version does not exist
+LLSUB_RANK=56: 2023-04-11 11:18:59.669574: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+LLSUB_RANK=56: 2023-04-11 11:19:00.560269: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2400000000 Hz
+LLSUB_RANK=56: 2023-04-11 11:19:00.615600: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5633cc49ff20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+LLSUB_RANK=56: 2023-04-11 11:19:00.615618: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+LLSUB_RANK=56: WARNING:tensorflow:From train_class_grid.py:137: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+LLSUB_RANK=56: 
